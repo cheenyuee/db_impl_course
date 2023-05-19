@@ -94,7 +94,7 @@ make
 
   - obclient 表示客户端程序
 
-  运行客户端后即可输入数据库命令，如 show tables 等
+  运行客户端后即可输入数据库命令，如 show tables 等。注意每个db命令都要以分号结束。
 
   ```shell
   miniob >help;
