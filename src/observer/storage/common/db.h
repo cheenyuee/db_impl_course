@@ -26,30 +26,31 @@ class Table;
 
 class Db {
 public:
-  Db() = default;
-  ~Db();
+    Db() = default;
 
-  RC init(const char *name, const char *dbpath);
+    ~Db();
 
-  RC create_table(const char *table_name, int attribute_count, const AttrInfo *attributes);
+    RC init(const char *name, const char *dbpath);
 
-  RC drop_table(const char* table_name);
+    RC create_table(const char *table_name, int attribute_count, const AttrInfo *attributes);
 
-  Table *find_table(const char *table_name) const;
+    RC drop_table(const char *table_name);
 
-  const char *name() const;
+    Table *find_table(const char *table_name) const;
 
-  void all_tables(std::vector<std::string> &table_names) const;
+    const char *name() const;
 
-  RC sync();
+    void all_tables(std::vector<std::string> &table_names) const;
 
-private:
-  RC open_all_tables();
+    RC sync();
 
 private:
-  std::string name_;
-  std::string path_;
-  std::unordered_map<std::string, Table *> opened_tables_;
+    RC open_all_tables();
+
+private:
+    std::string name_;  // db 名称
+    std::string path_;  // db 所在目录路径
+    std::unordered_map<std::string, Table *> opened_tables_;
 };
 
 #endif  // __OBSERVER_STORAGE_COMMON_DB_H__
