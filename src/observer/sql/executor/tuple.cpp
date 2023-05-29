@@ -257,11 +257,12 @@ void TupleRecordConverter::add_record(const char *record)
       } break;
       case DATES: {
         // TODO 从record中读取存储的日期
-
+        int value = *(int*)(record + field_meta->offset());
         // TODO 将日期转换为满足输出格式的字符串，注意这里月份和天数，不足两位时需要填充0
-
+        char buf[16] = {0};
+        snprintf(buf,sizeof(buf),"%04d-%02d-%02d", value / 365, (value % 365) / 30, (value % 365) % 30);
         // TODO 将字符串添加到tuple中
-
+        tuple.add(buf,strlen(buf));
       }break;
       default: {
         LOG_PANIC("Unsupported field type. type=%d", field_meta->type());

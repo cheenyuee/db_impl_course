@@ -57,30 +57,67 @@ void value_init_string(Value *value, const char *v)
   value->type = CHARS;
   value->data = strdup(v);
 }
-
 bool check_date(int y, int m, int d)
 {
-  // TODO 根据 y:year,m:month,d:day 校验日期是否合法
-  // TODO 合法 return 0
-  // TODO 不合法 return 1
-  return 1;
+    // TODO 根据 y:year,m:month,d:day 校验日期是否合法
+    // TODO 合法 return 0
+    // TODO 不合法 return 1
+    if (y < 1970 || y > 2038) return 0;
+    if (m < 1 || m > 12) return 0;
+    int mx_day; // mx_day记录当月最大天数
+    if (m == 2) {
+        if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0) mx_day = 29; // 闰年
+        else mx_day = 28;
+    } else if (m <= 7) {
+        if (m % 2 == 1) mx_day = 31;
+        else mx_day = 30;
+    } else if (m % 2 == 1) mx_day = 30;
+    else mx_day = 31;
+    if (d > mx_day) return 0;
+    return 1;
 }
+
+//bool check_date(int y, int m, int d)
+//{
+//  // TODO 根据 y:year,m:month,d:day 校验日期是否合法
+//  // TODO 合法 return 0
+//  // TODO 不合法 return 1
+//  return 1;
+//}
 
 int value_init_date(Value *value, const char *v) {
-  // TODO 将 value 的 type 属性修改为日期属性:DATES
-
-  // 从lex的解析中读取 year,month,day
-  int y,m,d;
-  sscanf(v, "%d-%d-%d", &y, &m, &d);//not check return value eq 3, lex guarantee
-  // 对读取的日期做合法性校验
-  bool b = check_date(y,m,d);
-  if(!b) return -1;
-  // TODO 将日期转换成整数
-
-  // TODO 将value 的 data 属性修改为转换后的日期
-
-  return 0;
+    // TODO 将 value 的 type 属性修改为日期属性:DATES
+    value->type = DATES;
+    // 从lex的解析中读取 year,month,day
+    int y,m,d;
+    sscanf(v, "%d-%d-%d", &y, &m, &d);//not check return value eq 3, lex guarantee
+    // 对读取的日期做合法性校验
+    bool b = check_date(y,m,d);
+    if(!b) return -1;
+    // TODO 将日期转换成整数
+    // int month[13] = {0,31,28,31,30,31,30,31,31,30,31,30,31};
+    int date_value = y * 365 + m * 30 + d;
+    // TODO 将value 的 data 属性修改为转换后的日期
+    value->data = malloc(sizeof(int));
+    memcpy(value->data, &date_value, sizeof(int));
+    return 0;
 }
+
+//int value_init_date(Value *value, const char *v) {
+//  // TODO 将 value 的 type 属性修改为日期属性:DATES
+//
+//  // 从lex的解析中读取 year,month,day
+//  int y,m,d;
+//  sscanf(v, "%d-%d-%d", &y, &m, &d);//not check return value eq 3, lex guarantee
+//  // 对读取的日期做合法性校验
+//  bool b = check_date(y,m,d);
+//  if(!b) return -1;
+//  // TODO 将日期转换成整数
+//
+//  // TODO 将value 的 data 属性修改为转换后的日期
+//
+//  return 0;
+//}
 
 
 void value_destroy(Value *value)

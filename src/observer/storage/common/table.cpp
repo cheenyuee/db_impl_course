@@ -122,17 +122,34 @@ RC Table::create(
 }
 
 RC Table::destroy(const char* dir) {
-  //刷新所有脏页
-  RC rc = sync();
-  if(rc != RC::SUCCESS) return rc;
+    //刷新所有脏页
+    RC rc = sync();
+    if(rc != RC::SUCCESS) return rc;
 
-  //TODO 删除描述表元数据的文件
+    //TODO 删除描述表元数据的文件
+    std::string meta_file = table_meta_file(dir, name()); // 获取元数据文件路径(.table)
+    if (unlink(meta_file.c_str()) != 0) { // unlink()返回值0表示成功 -1表示失败
+        return RC::GENERIC_ERROR;
+    }
 
-  //TODO 删除表数据文件
+    //TODO 删除表数据文件
+    std::string data_file = table_data_file(dir, name()); // 获取表数据文件路径(.data)
+    if (unlink(data_file.c_str()) != 0) { // unlink()返回值0表示成功 -1表示失败
+        return RC::GENERIC_ERROR;
+    }
 
-  //TODO 清理所有的索引相关文件数据与索引元数据
-
-  return RC::GENERIC_ERROR;
+    //TODO 清理所有的索引相关文件数据与索引元数据
+    const int index_num = table_meta_.index_num();
+    for (int i = 0; i < index_num; i++) { // 遍历每个索引
+        ((BplusTreeIndex*)indexes_[i])->close();
+        const IndexMeta *index_meta = table_meta_.index(i);
+        std::string index_file = table_index_file(dir, name(), index_meta->name()); // 获取索引文件名(.index)
+        if (unlink(index_file.c_str()) != 0) {
+            LOG_ERROR("Failed to remove index file=%s, errno=%d", index_file.c_str(), errno);
+            return RC::GENERIC_ERROR;
+        }
+    }
+    return RC::SUCCESS;
 }
 
 

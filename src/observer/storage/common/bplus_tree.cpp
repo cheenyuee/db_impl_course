@@ -51,6 +51,11 @@ int attribute_comp(const char *first, const char *second, AttrType attr_type, in
       s2 = second;
       return strncmp(s1, s2, attr_length);
     } break;
+    case DATES: {
+        i1 = *(int *)first;
+        i2 = *(int *)second;
+        return i1 - i2;
+    } break;
     default: {
       LOG_PANIC("Unknown attr type: %d", attr_type);
     }
