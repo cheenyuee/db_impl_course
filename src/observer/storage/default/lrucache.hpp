@@ -152,6 +152,7 @@ namespace cache {
 
             _cache_items_map.erase(old_key);
             _cache_items_list.erase(old_it);
+
             return RC::SUCCESS;
         }
 
