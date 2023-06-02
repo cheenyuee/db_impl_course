@@ -59,7 +59,7 @@ namespace cache {
                 // 如果页已经存在
                 // 将页和页地址放到双向链表的head
                 // 删除原先双向链表中的页并更新哈希表中页对应的地址
-                key_value_pair_t &kv_pair = new key_value_pair_t(key, value);
+                key_value_pair_t kv_pair = std::make_pair(key, value);
                 _cache_items_list.push_front(kv_pair);
                 _cache_items_list.erase(_cache_items_map[key]); // erasing by iterator
                 _cache_items_map[key] = _cache_items_list.begin();
@@ -70,7 +70,7 @@ namespace cache {
                     return RC::BUFFERPOOL_NOBUF;
                 } else {
                     // 在_cache_items_list和_cache_items_map中插入
-                    key_value_pair_t &kv_pair = new key_value_pair_t(key, value);
+                    key_value_pair_t kv_pair = std::make_pair(key, value);
                     _cache_items_list.push_front(kv_pair);
                     _cache_items_map[key] = _cache_items_list.begin();
                 }
@@ -125,7 +125,7 @@ namespace cache {
                      * 被驱逐的项目应该满足check条件，check条件一般是: frame的Pin count为0.
                      * 2. 返回 RC::SUCCESS
                      */
-                     vic_key = it->first;
+                    *vic_key = it->first;
                 }
             }
             return RC::NOTFOUND;
@@ -146,7 +146,9 @@ namespace cache {
 
             list_iterator_t old_it = _cache_items_map[old_key];
 
-            key_value_pair_t &kv_pair = new key_value_pair_t(new_key, old_it->second);
+            // key_value_pair_t &kv_pair = new key_value_pair_t(new_key, old_it->second);
+            key_value_pair_t kv_pair = std::make_pair(new_key, old_it->second);
+
             _cache_items_list.push_front(kv_pair);
             _cache_items_map[new_key] = _cache_items_list.begin();
 
