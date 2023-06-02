@@ -94,7 +94,7 @@ namespace cache {
             _cache_items_list.push_front(*list_it);
             _cache_items_map[key] = _cache_items_list.begin();
             _cache_items_list.erase(list_it);
-            res_value = &(_cache_items_list.begin()->second);
+            *res_value = (_cache_items_list.begin())->second;
             return RC::SUCCESS;
         }
 
