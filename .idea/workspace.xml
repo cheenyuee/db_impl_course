@@ -40,7 +40,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="784d8cda-6494-4f46-8b41-0ef91d2f5837" name="Changes" comment="多表查询" />
+    <list default="true" id="784d8cda-6494-4f46-8b41-0ef91d2f5837" name="Changes" comment="多表查询">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,11 +109,6 @@
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="bplus_tree_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="minidb" TARGET_NAME="bplus_tree_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="minidb" RUN_TARGET_NAME="bplus_tree_test">
@@ -236,7 +235,8 @@
       <workItem from="1685362319798" duration="11735000" />
       <workItem from="1685445655345" duration="8486000" />
       <workItem from="1685684420618" duration="12446000" />
-      <workItem from="1685788813570" duration="5403000" />
+      <workItem from="1685788813570" duration="5607000" />
+      <workItem from="1685794486588" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="lru">
       <created>1685712570373</created>
