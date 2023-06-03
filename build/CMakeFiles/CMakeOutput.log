@@ -1,0 +1,3956 @@
+The system is: Darwin - 22.4.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is AppleClang, found in "/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-iF3ROF
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f1d0e && [1/2] Building C object CMakeFiles/cmTC_f1d0e.dir/CMakeCCompilerABI.c.o
+Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: arm64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-iF3ROF -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_f1d0e.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f1d0e.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-iF3ROF -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f1d0e.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking C executable cmTC_f1d0e
+Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: arm64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_f1d0e -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f1d0e.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-857.1
+BUILD 16:59:58 Feb 24 2023
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-iF3ROF]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f1d0e && [1/2] Building C object CMakeFiles/cmTC_f1d0e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+  ignore line: [Target: arm64-apple-darwin22.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-iF3ROF -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_f1d0e.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f1d0e.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-iF3ROF -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f1d0e.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_f1d0e]
+  ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+  ignore line: [Target: arm64-apple-darwin22.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_f1d0e -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f1d0e.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [13.0.0] ==> ignore
+    arg [13.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f1d0e] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_f1d0e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+
+
+The system is: Darwin - 22.4.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is AppleClang, found in "/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Y50nBT
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7abb9 && [1/2] Building C object CMakeFiles/cmTC_7abb9.dir/CMakeCCompilerABI.c.o
+Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: arm64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Y50nBT -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_7abb9.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7abb9.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Y50nBT -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7abb9.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking C executable cmTC_7abb9
+Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: arm64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_7abb9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7abb9.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-857.1
+BUILD 16:59:58 Feb 24 2023
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Y50nBT]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7abb9 && [1/2] Building C object CMakeFiles/cmTC_7abb9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+  ignore line: [Target: arm64-apple-darwin22.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Y50nBT -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_7abb9.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7abb9.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Y50nBT -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7abb9.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_7abb9]
+  ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+  ignore line: [Target: arm64-apple-darwin22.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_7abb9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7abb9.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [13.0.0] ==> ignore
+    arg [13.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7abb9] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_7abb9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-CmNC52
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9df05 && [1/2] Building CXX object CMakeFiles/cmTC_9df05.dir/CMakeCXXCompilerABI.cpp.o
+Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: arm64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-CmNC52 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_9df05.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_9df05.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++14 -fdeprecated-macro -fdebug-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-CmNC52 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9df05.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking CXX executable cmTC_9df05
+Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: arm64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_9df05 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_9df05.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-857.1
+BUILD 16:59:58 Feb 24 2023
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-CmNC52]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9df05 && [1/2] Building CXX object CMakeFiles/cmTC_9df05.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+  ignore line: [Target: arm64-apple-darwin22.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-CmNC52 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_9df05.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_9df05.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++14 -fdeprecated-macro -fdebug-compilation-dir=/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-CmNC52 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9df05.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_9df05]
+  ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+  ignore line: [Target: arm64-apple-darwin22.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_9df05 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_9df05.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [13.0.0] ==> ignore
+    arg [13.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9df05] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_9df05.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+
+
+Performing C SOURCE FILE Test check_c_compiler_flag__fdiagnostics_color_always succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Daa6xl
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_afbe8 && [1/2] Building C object CMakeFiles/cmTC_afbe8.dir/src.c.o
+[2/2] Linking C executable cmTC_afbe8
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Wall succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Yitdwa
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4f202 && [1/2] Building C object CMakeFiles/cmTC_4f202.dir/src.c.o
+[2/2] Linking C executable cmTC_4f202
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Wextra succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-nqdZsZ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1dc0c && [1/2] Building C object CMakeFiles/cmTC_1dc0c.dir/src.c.o
+[2/2] Linking C executable cmTC_1dc0c
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Wno_unused_parameter succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-vhM8Ju
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_03886 && [1/2] Building C object CMakeFiles/cmTC_03886.dir/src.c.o
+[2/2] Linking C executable cmTC_03886
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Wstrict_aliasing succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-TCXOxY
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d2faf && [1/2] Building C object CMakeFiles/cmTC_d2faf.dir/src.c.o
+[2/2] Linking C executable cmTC_d2faf
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Wstrict_prototypes succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-dcURSG
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_65df4 && [1/2] Building C object CMakeFiles/cmTC_65df4.dir/src.c.o
+[2/2] Linking C executable cmTC_65df4
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__fno_strict_aliasing succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-ezvy9Q
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c16c9 && [1/2] Building C object CMakeFiles/cmTC_c16c9.dir/src.c.o
+[2/2] Linking C executable cmTC_c16c9
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Wmissing_prototypes succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-vjzJCV
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3eadf && [1/2] Building C object CMakeFiles/cmTC_3eadf.dir/src.c.o
+[2/2] Linking C executable cmTC_3eadf
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Winit_self succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-hKdUiu
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_35907 && [1/2] Building C object CMakeFiles/cmTC_35907.dir/src.c.o
+[2/2] Linking C executable cmTC_35907
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Wmissing_field_initializers succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-BZdlRh
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ffbcf && [1/2] Building C object CMakeFiles/cmTC_ffbcf.dir/src.c.o
+[2/2] Linking C executable cmTC_ffbcf
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Wdeclaration_after_statement succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-iKh6M4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_64d87 && [1/2] Building C object CMakeFiles/cmTC_64d87.dir/src.c.o
+[2/2] Linking C executable cmTC_64d87
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Waddress succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-2FtKnn
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_46c25 && [1/2] Building C object CMakeFiles/cmTC_46c25.dir/src.c.o
+[2/2] Linking C executable cmTC_46c25
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Woverride_init succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-DE6OdT
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_52b1f && [1/2] Building C object CMakeFiles/cmTC_52b1f.dir/src.c.o
+[2/2] Linking C executable cmTC_52b1f
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Wwrite_strings succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-RhRiz4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9f477 && [1/2] Building C object CMakeFiles/cmTC_9f477.dir/src.c.o
+[2/2] Linking C executable cmTC_9f477
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Wno_unused_function succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-5zHiKi
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f7700 && [1/2] Building C object CMakeFiles/cmTC_f7700.dir/src.c.o
+[2/2] Linking C executable cmTC_f7700
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Wno_error_deprecated_declarations succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-0X8WWF
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2fe84 && [1/2] Building C object CMakeFiles/cmTC_2fe84.dir/src.c.o
+[2/2] Linking C executable cmTC_2fe84
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test check_c_compiler_flag__Qunused_arguments succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-kNEDEN
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4ec55 && [1/2] Building C object CMakeFiles/cmTC_4ec55.dir/src.c.o
+[2/2] Linking C executable cmTC_4ec55
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if files ;fcntl.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-wTOSTG
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_febc5 && [1/2] Building C object CMakeFiles/cmTC_febc5.dir/EVENT__HAVE_FCNTL_H.c.o
+[2/2] Linking C executable cmTC_febc5
+
+
+
+Determining if files fcntl.h;inttypes.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-ZPh4aw
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_28eab && [1/2] Building C object CMakeFiles/cmTC_28eab.dir/EVENT__HAVE_INTTYPES_H.c.o
+[2/2] Linking C executable cmTC_28eab
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-9ZhvYB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7b0db && [1/2] Building C object CMakeFiles/cmTC_7b0db.dir/EVENT__HAVE_MEMORY_H.c.o
+[2/2] Linking C executable cmTC_7b0db
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-ANVWCS
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0c28a && [1/2] Building C object CMakeFiles/cmTC_0c28a.dir/EVENT__HAVE_SIGNAL_H.c.o
+[2/2] Linking C executable cmTC_0c28a
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-R0s3p1
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2de26 && [1/2] Building C object CMakeFiles/cmTC_2de26.dir/EVENT__HAVE_STDARG_H.c.o
+[2/2] Linking C executable cmTC_2de26
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-OUK2Py
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0b38b && [1/2] Building C object CMakeFiles/cmTC_0b38b.dir/EVENT__HAVE_STDDEF_H.c.o
+[2/2] Linking C executable cmTC_0b38b
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-XM3FGB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a2e8b && [1/2] Building C object CMakeFiles/cmTC_a2e8b.dir/EVENT__HAVE_STDINT_H.c.o
+[2/2] Linking C executable cmTC_a2e8b
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-HjK3Xg
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a3c98 && [1/2] Building C object CMakeFiles/cmTC_a3c98.dir/EVENT__HAVE_STDLIB_H.c.o
+[2/2] Linking C executable cmTC_a3c98
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-gIK9H3
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f3aef && [1/2] Building C object CMakeFiles/cmTC_f3aef.dir/EVENT__HAVE_STRING_H.c.o
+[2/2] Linking C executable cmTC_f3aef
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-DbiCng
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_47531 && [1/2] Building C object CMakeFiles/cmTC_47531.dir/EVENT__HAVE_ERRNO_H.c.o
+[2/2] Linking C executable cmTC_47531
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-zQ9DKV
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ccac6 && [1/2] Building C object CMakeFiles/cmTC_ccac6.dir/EVENT__HAVE_UNISTD_H.c.o
+[2/2] Linking C executable cmTC_ccac6
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-wsdwi7
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cb5bf && [1/2] Building C object CMakeFiles/cmTC_cb5bf.dir/EVENT__HAVE_TIME_H.c.o
+[2/2] Linking C executable cmTC_cb5bf
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-AlYBum
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b008c && [1/2] Building C object CMakeFiles/cmTC_b008c.dir/EVENT__HAVE_SYS_TYPES_H.c.o
+[2/2] Linking C executable cmTC_b008c
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-11jfUM
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8fc7e && [1/2] Building C object CMakeFiles/cmTC_8fc7e.dir/EVENT__HAVE_SYS_STAT_H.c.o
+[2/2] Linking C executable cmTC_8fc7e
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-bN8vLr
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bca71 && [1/2] Building C object CMakeFiles/cmTC_bca71.dir/EVENT__HAVE_SYS_TIME_H.c.o
+[2/2] Linking C executable cmTC_bca71
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-PsEcTo
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6633c && [1/2] Building C object CMakeFiles/cmTC_6633c.dir/EVENT__HAVE_SYS_PARAM_H.c.o
+[2/2] Linking C executable cmTC_6633c
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-KEyBEa
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ffc27 && [1/2] Building C object CMakeFiles/cmTC_ffc27.dir/EVENT__HAVE_NETDB_H.c.o
+[2/2] Linking C executable cmTC_ffc27
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-9D7oft
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_75c41 && [1/2] Building C object CMakeFiles/cmTC_75c41.dir/EVENT__HAVE_DLFCN_H.c.o
+[2/2] Linking C executable cmTC_75c41
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Msabun
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0c3ef && [1/2] Building C object CMakeFiles/cmTC_0c3ef.dir/EVENT__HAVE_ARPA_INET_H.c.o
+[2/2] Linking C executable cmTC_0c3ef
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-67jxMf
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_75edc && [1/2] Building C object CMakeFiles/cmTC_75edc.dir/EVENT__HAVE_POLL_H.c.o
+[2/2] Linking C executable cmTC_75edc
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-zwDTFs
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6d9e5 && [1/2] Building C object CMakeFiles/cmTC_6d9e5.dir/EVENT__HAVE_SYS_SOCKET_H.c.o
+[2/2] Linking C executable cmTC_6d9e5
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-KJfh86
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_25430 && [1/2] Building C object CMakeFiles/cmTC_25430.dir/EVENT__HAVE_SYS_RANDOM_H.c.o
+[2/2] Linking C executable cmTC_25430
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-MQGO3p
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ee27e && [1/2] Building C object CMakeFiles/cmTC_ee27e.dir/EVENT__HAVE_SYS_UN_H.c.o
+[2/2] Linking C executable cmTC_ee27e
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-2EJIC4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e6d0c && [1/2] Building C object CMakeFiles/cmTC_e6d0c.dir/EVENT__HAVE_SYS_EVENT_H.c.o
+[2/2] Linking C executable cmTC_e6d0c
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-r3DIPB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_579c8 && [1/2] Building C object CMakeFiles/cmTC_579c8.dir/EVENT__HAVE_SYS_IOCTL_H.c.o
+[2/2] Linking C executable cmTC_579c8
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-BquiLa
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_63d49 && [1/2] Building C object CMakeFiles/cmTC_63d49.dir/EVENT__HAVE_SYS_MMAN_H.c.o
+[2/2] Linking C executable cmTC_63d49
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h;sys/queue.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-ichbIp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c7efa && [1/2] Building C object CMakeFiles/cmTC_c7efa.dir/EVENT__HAVE_SYS_QUEUE_H.c.o
+[2/2] Linking C executable cmTC_c7efa
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h;sys/queue.h;sys/select.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-EVAdYB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_76ec8 && [1/2] Building C object CMakeFiles/cmTC_76ec8.dir/EVENT__HAVE_SYS_SELECT_H.c.o
+[2/2] Linking C executable cmTC_76ec8
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h;sys/queue.h;sys/select.h;sys/uio.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-V07fWM
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b963c && [1/2] Building C object CMakeFiles/cmTC_b963c.dir/EVENT__HAVE_SYS_UIO_H.c.o
+[2/2] Linking C executable cmTC_b963c
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h;sys/queue.h;sys/select.h;sys/uio.h;sys/wait.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-pA68kp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ea9d0 && [1/2] Building C object CMakeFiles/cmTC_ea9d0.dir/EVENT__HAVE_SYS_WAIT_H.c.o
+[2/2] Linking C executable cmTC_ea9d0
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h;sys/queue.h;sys/select.h;sys/uio.h;sys/wait.h;sys/resource.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-d9lqgC
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ed8ae && [1/2] Building C object CMakeFiles/cmTC_ed8ae.dir/EVENT__HAVE_SYS_RESOURCE_H.c.o
+[2/2] Linking C executable cmTC_ed8ae
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h;sys/queue.h;sys/select.h;sys/uio.h;sys/wait.h;sys/resource.h;netinet/in.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Q0xlBO
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b0284 && [1/2] Building C object CMakeFiles/cmTC_b0284.dir/EVENT__HAVE_NETINET_IN_H.c.o
+[2/2] Linking C executable cmTC_b0284
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h;sys/queue.h;sys/select.h;sys/uio.h;sys/wait.h;sys/resource.h;netinet/in.h;netinet/tcp.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-r4fYZh
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_08611 && [1/2] Building C object CMakeFiles/cmTC_08611.dir/EVENT__HAVE_NETINET_TCP_H.c.o
+[2/2] Linking C executable cmTC_08611
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h;sys/queue.h;sys/select.h;sys/uio.h;sys/wait.h;sys/resource.h;netinet/in.h;netinet/tcp.h;ifaddrs.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-nQZOkP
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4006a && [1/2] Building C object CMakeFiles/cmTC_4006a.dir/EVENT__HAVE_IFADDRS_H.c.o
+[2/2] Linking C executable cmTC_4006a
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h;sys/queue.h;sys/select.h;sys/uio.h;sys/wait.h;sys/resource.h;netinet/in.h;netinet/tcp.h;ifaddrs.h;sys/sysctl.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Nr8kYD
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_92779 && [1/2] Building C object CMakeFiles/cmTC_92779.dir/EVENT__HAVE_SYS_SYSCTL_H.c.o
+[2/2] Linking C executable cmTC_92779
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h;sys/queue.h;sys/select.h;sys/uio.h;sys/wait.h;sys/resource.h;netinet/in.h;netinet/tcp.h;ifaddrs.h;sys/sysctl.h;mach/mach_time.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-14F0Zx
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_72806 && [1/2] Building C object CMakeFiles/cmTC_72806.dir/EVENT__HAVE_MACH_MACH_TIME_H.c.o
+[2/2] Linking C executable cmTC_72806
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h;time.h;sys/types.h;sys/stat.h;sys/time.h;sys/param.h;netdb.h;dlfcn.h;arpa/inet.h;poll.h;sys/socket.h;sys/random.h;sys/un.h;sys/event.h;sys/ioctl.h;sys/mman.h;sys/queue.h;sys/select.h;sys/uio.h;sys/wait.h;sys/resource.h;netinet/in.h;netinet/tcp.h;ifaddrs.h;sys/sysctl.h;mach/mach_time.h;mach/mach.h exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-iErv5a
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f84c0 && [1/2] Building C object CMakeFiles/cmTC_f84c0.dir/EVENT__HAVE_MACH_MACH_H.c.o
+[2/2] Linking C executable cmTC_f84c0
+
+
+
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-ztPp3b
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_be9e4 && [1/2] Building C object CMakeFiles/cmTC_be9e4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_be9e4
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getnameinfo exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-n5Rt9b
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9194e && [1/2] Building C object CMakeFiles/cmTC_9194e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9194e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getnameinfo
+  return ((int*)(&getnameinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getprotobynumber exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-LzGpjo
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4d8c5 && [1/2] Building C object CMakeFiles/cmTC_4d8c5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4d8c5
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobynumber
+  return ((int*)(&getprotobynumber))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getservbyname exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-oi8J7k
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_98cbb && [1/2] Building C object CMakeFiles/cmTC_98cbb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_98cbb
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyname
+  return ((int*)(&getservbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-twR5O6
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_39c15 && [1/2] Building C object CMakeFiles/cmTC_39c15.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_39c15
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_ntop exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-RHhKyP
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2d17c && [1/2] Building C object CMakeFiles/cmTC_2d17c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2d17c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_ntop
+  return ((int*)(&inet_ntop))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_pton exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-y49vB0
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_74eb3 && [1/2] Building C object CMakeFiles/cmTC_74eb3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_74eb3
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-RdmBmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6b4ae && [1/2] Building C object CMakeFiles/cmTC_6b4ae.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6b4ae
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the signal exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-oa7Lua
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f404c && [1/2] Building C object CMakeFiles/cmTC_f404c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f404c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef signal
+  return ((int*)(&signal))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-PqlroZ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_49dc6 && [1/2] Building C object CMakeFiles/cmTC_49dc6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_49dc6
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlcpy exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-UgZiOK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c52c0 && [1/2] Building C object CMakeFiles/cmTC_c52c0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c52c0
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strsep exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-iScs4B
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_25c0e && [1/2] Building C object CMakeFiles/cmTC_25c0e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_25c0e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strsep
+  return ((int*)(&strsep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-GdwbHr
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3d8f5 && [1/2] Building C object CMakeFiles/cmTC_3d8f5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3d8f5
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vasprintf exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-4Q8zPx
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3ef46 && [1/2] Building C object CMakeFiles/cmTC_3ef46.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3ef46
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vasprintf
+  return ((int*)(&vasprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the timerclear exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-CBcfpp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c269c && [1/2] Building C object CMakeFiles/cmTC_c269c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c269c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef timerclear
+  return ((int*)(&timerclear))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the timercmp exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-5lb1NB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d5149 && [1/2] Building C object CMakeFiles/cmTC_d5149.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d5149
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef timercmp
+  return ((int*)(&timercmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the timerisset exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-icFjwo
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b1f87 && [1/2] Building C object CMakeFiles/cmTC_b1f87.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b1f87
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef timerisset
+  return ((int*)(&timerisset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the timeradd exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-wNUP7x
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_713af && [1/2] Building C object CMakeFiles/cmTC_713af.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_713af
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef timeradd
+  return ((int*)(&timeradd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nanosleep exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-YRgoxh
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_262f6 && [1/2] Building C object CMakeFiles/cmTC_262f6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_262f6
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nanosleep
+  return ((int*)(&nanosleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the putenv exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-t4YXar
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ca988 && [1/2] Building C object CMakeFiles/cmTC_ca988.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ca988
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putenv
+  return ((int*)(&putenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the umask exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-kumgxK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fffde && [1/2] Building C object CMakeFiles/cmTC_fffde.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fffde
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef umask
+  return ((int*)(&umask))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the clock_gettime exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-RyZ1Uo
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ee03a && [1/2] Building C object CMakeFiles/cmTC_ee03a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ee03a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef clock_gettime
+  return ((int*)(&clock_gettime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getifaddrs exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-zebEyq
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b7fe7 && [1/2] Building C object CMakeFiles/cmTC_b7fe7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b7fe7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getifaddrs
+  return ((int*)(&getifaddrs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the select exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-auIuzb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5eed5 && [1/2] Building C object CMakeFiles/cmTC_5eed5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5eed5
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef select
+  return ((int*)(&select))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the poll exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-bflccx
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7f773 && [1/2] Building C object CMakeFiles/cmTC_7f773.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7f773
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the kqueue exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-pQOQKD
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0dcd1 && [1/2] Building C object CMakeFiles/cmTC_0dcd1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0dcd1
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef kqueue
+  return ((int*)(&kqueue))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fcntl exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-lwI8II
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_37404 && [1/2] Building C object CMakeFiles/cmTC_37404.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_37404
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mmap exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-XUqp8o
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_43ae7 && [1/2] Building C object CMakeFiles/cmTC_43ae7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_43ae7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pipe exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-T7Cjob
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d38ab && [1/2] Building C object CMakeFiles/cmTC_d38ab.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d38ab
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pipe
+  return ((int*)(&pipe))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sendfile exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-MUG2GS
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_be242 && [1/2] Building C object CMakeFiles/cmTC_be242.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_be242
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sendfile
+  return ((int*)(&sendfile))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sigaction exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-In5FAK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_46676 && [1/2] Building C object CMakeFiles/cmTC_46676.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_46676
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strsignal exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-PCOJlb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_21927 && [1/2] Building C object CMakeFiles/cmTC_21927.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_21927
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strsignal
+  return ((int*)(&strsignal))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysctl exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-mz1Ilq
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4b5bd && [1/2] Building C object CMakeFiles/cmTC_4b5bd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4b5bd
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctl
+  return ((int*)(&sysctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the arc4random exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-yw2Ffs
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1de06 && [1/2] Building C object CMakeFiles/cmTC_1de06.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1de06
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the arc4random_buf exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-z5W0A4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_682f8 && [1/2] Building C object CMakeFiles/cmTC_682f8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_682f8
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random_buf
+  return ((int*)(&arc4random_buf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the arc4random_addrandom exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-bJtSHd
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d31b3 && [1/2] Building C object CMakeFiles/cmTC_d31b3.dir/CheckSymbolExists.c.o
+/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-bJtSHd/CheckSymbolExists.c:45:19: warning: 'arc4random_addrandom' is deprecated: first deprecated in macOS 10.12 - use arc4random_stir [-Wdeprecated-declarations]
+  return ((int*)(&arc4random_addrandom))[argc];
+                  ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdlib.h:261:7: note: 'arc4random_addrandom' has been explicitly marked deprecated here
+void     arc4random_addrandom(unsigned char * /*dat*/, int /*datlen*/)
+         ^
+1 warning generated.
+[2/2] Linking C executable cmTC_d31b3
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random_addrandom
+  return ((int*)(&arc4random_addrandom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getegid exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-dtYkEM
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cb583 && [1/2] Building C object CMakeFiles/cmTC_cb583.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cb583
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getegid
+  return ((int*)(&getegid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the geteuid exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-DVNIBG
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e68c4 && [1/2] Building C object CMakeFiles/cmTC_e68c4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e68c4
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef geteuid
+  return ((int*)(&geteuid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the issetugid exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-dd4JoY
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1fc3e && [1/2] Building C object CMakeFiles/cmTC_1fc3e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1fc3e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef issetugid
+  return ((int*)(&issetugid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the usleep exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-ZffZb2
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_eae05 && [1/2] Building C object CMakeFiles/cmTC_eae05.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_eae05
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef usleep
+  return ((int*)(&usleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-uTckiJ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_29256 && [1/2] Building C object CMakeFiles/cmTC_29256.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_29256
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the unsetenv exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-w9dopA
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9e554 && [1/2] Building C object CMakeFiles/cmTC_9e554.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9e554
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-nlElkT
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8a139 && [1/2] Building C object CMakeFiles/cmTC_8a139.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8a139
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mach_absolute_time exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-cZtXXH
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4f10a && [1/2] Building C object CMakeFiles/cmTC_4f10a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4f10a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/param.h>
+#include <netdb.h>
+#include <dlfcn.h>
+#include <arpa/inet.h>
+#include <poll.h>
+#include <sys/socket.h>
+#include <sys/random.h>
+#include <sys/un.h>
+#include <sys/event.h>
+#include <sys/ioctl.h>
+#include <sys/mman.h>
+#include <sys/queue.h>
+#include <sys/select.h>
+#include <sys/uio.h>
+#include <sys/wait.h>
+#include <sys/resource.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <ifaddrs.h>
+#include <sys/sysctl.h>
+#include <mach/mach_time.h>
+#include <mach/mach.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mach_absolute_time
+  return ((int*)(&mach_absolute_time))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-4DtGio
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_111e3 && [1/2] Building C object CMakeFiles/cmTC_111e3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_111e3
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-H3ug9I
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_40050 && [1/2] Building C object CMakeFiles/cmTC_40050.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_40050
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Fue75h
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c9c04 && [1/2] Building C object CMakeFiles/cmTC_c9c04.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c9c04
+
+
+
+Determining size of struct sockaddr_un passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-la6DKY
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_25320 && [1/2] Building C object CMakeFiles/cmTC_25320.dir/EVENT__HAVE_STRUCT_SOCKADDR_UN.c.o
+[2/2] Linking C executable cmTC_25320
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-4CMrts
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_61017 && [1/2] Building C object CMakeFiles/cmTC_61017.dir/EVENT__HAVE_UINT8_T.c.o
+[2/2] Linking C executable cmTC_61017
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-Wqm876
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_33fe7 && [1/2] Building C object CMakeFiles/cmTC_33fe7.dir/EVENT__HAVE_UINT16_T.c.o
+[2/2] Linking C executable cmTC_33fe7
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-VNmUWS
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c41b1 && [1/2] Building C object CMakeFiles/cmTC_c41b1.dir/EVENT__HAVE_UINT32_T.c.o
+[2/2] Linking C executable cmTC_c41b1
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-mTLxYS
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_077f8 && [1/2] Building C object CMakeFiles/cmTC_077f8.dir/EVENT__HAVE_UINT64_T.c.o
+[2/2] Linking C executable cmTC_077f8
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-SicTdp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d0f5e && [1/2] Building C object CMakeFiles/cmTC_d0f5e.dir/EVENT__SIZEOF_SHORT.c.o
+[2/2] Linking C executable cmTC_d0f5e
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-ZCTXlT
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5b38f && [1/2] Building C object CMakeFiles/cmTC_5b38f.dir/EVENT__SIZEOF_INT.c.o
+[2/2] Linking C executable cmTC_5b38f
+
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-IJLV2G
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3944f && [1/2] Building C object CMakeFiles/cmTC_3944f.dir/EVENT__SIZEOF_UNSIGNED.c.o
+[2/2] Linking C executable cmTC_3944f
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-T3Da74
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_29ffa && [1/2] Building C object CMakeFiles/cmTC_29ffa.dir/EVENT__SIZEOF_UNSIGNED_INT.c.o
+[2/2] Linking C executable cmTC_29ffa
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-UzTGUU
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_32b7e && [1/2] Building C object CMakeFiles/cmTC_32b7e.dir/EVENT__SIZEOF_LONG.c.o
+[2/2] Linking C executable cmTC_32b7e
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-ZA9nDC
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a4db7 && [1/2] Building C object CMakeFiles/cmTC_a4db7.dir/EVENT__SIZEOF_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_a4db7
+
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-R7Wnz8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_12ae7 && [1/2] Building C object CMakeFiles/cmTC_12ae7.dir/src.c.o
+/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-R7Wnz8/src.c:1:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+inline void func(); void func() { } int main() { func(); return 0; }
+                ^
+                 void
+/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-R7Wnz8/src.c:1:30: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+inline void func(); void func() { } int main() { func(); return 0; }
+                             ^
+                              void
+/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-R7Wnz8/src.c:1:45: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+inline void func(); void func() { } int main() { func(); return 0; }
+                                            ^
+                                             void
+3 warnings generated.
+[2/2] Linking C executable cmTC_12ae7
+
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+
+Determining if the __func__ exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-AVHxgN
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9b9a0 && [1/2] Building C object CMakeFiles/cmTC_9b9a0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9b9a0
+
+
+File CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __func__
+  return ((int*)(&__func__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __FUNCTION__ exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-R0bXmj
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a0460 && [1/2] Building C object CMakeFiles/cmTC_a0460.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a0460
+
+
+File CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __FUNCTION__
+  return ((int*)(&__FUNCTION__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the TAILQ_FOREACH exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-U6ZuAK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bd4f7 && [1/2] Building C object CMakeFiles/cmTC_bd4f7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bd4f7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/queue.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TAILQ_FOREACH
+  return ((int*)(&TAILQ_FOREACH))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_DECL_CTL_KERN succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-1OkWgL
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3a2d6 && [1/2] Building C object CMakeFiles/cmTC_3a2d6.dir/src.c.o
+/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-1OkWgL/src.c:3:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+        int main() { (void)CTL_KERN; return 0; }
+                ^
+                 void
+1 warning generated.
+[2/2] Linking C executable cmTC_3a2d6
+
+
+Source file was:
+
+          #include <sys/sysctl.h>
+        int main() { (void)CTL_KERN; return 0; }
+
+Determining if the F_SETFD exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-RI4NVf
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_03bc9 && [1/2] Building C object CMakeFiles/cmTC_03bc9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_03bc9
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_SETFD
+  return ((int*)(&F_SETFD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of fd_mask passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-JBpH0Y
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3ac40 && [1/2] Building C object CMakeFiles/cmTC_3ac40.dir/EVENT__HAVE_FD_MASK.c.o
+[2/2] Linking C executable cmTC_3ac40
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-M98mIQ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4ac10 && [1/2] Building C object CMakeFiles/cmTC_4ac10.dir/EVENT__SIZEOF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_4ac10
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-LFJiFD
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_564e1 && [1/2] Building C object CMakeFiles/cmTC_564e1.dir/EVENT__SIZEOF_OFF_T.c.o
+[2/2] Linking C executable cmTC_564e1
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-vgLruh
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e8420 && [1/2] Building C object CMakeFiles/cmTC_e8420.dir/EVENT__SIZEOF_SSIZE_T_LOWER.c.o
+[2/2] Linking C executable cmTC_e8420
+
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-M17FVA
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c2173 && [1/2] Building C object CMakeFiles/cmTC_c2173.dir/EVENT__SIZEOF_SOCKLEN_T.c.o
+[2/2] Linking C executable cmTC_c2173
+
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-ufgsQG
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_beb7d && [1/2] Building C object CMakeFiles/cmTC_beb7d.dir/EVENT__SIZEOF_PID_T.c.o
+[2/2] Linking C executable cmTC_beb7d
+
+
+
+Determining size of pthread_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-QQIQpt
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_74f5a && [1/2] Building C object CMakeFiles/cmTC_74f5a.dir/EVENT__SIZEOF_PTHREAD_T.c.o
+[2/2] Linking C executable cmTC_74f5a
+
+
+
+Determining size of uintptr_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-JFkqvK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_436a0 && [1/2] Building C object CMakeFiles/cmTC_436a0.dir/EVENT__HAVE_UINTPTR_T.c.o
+[2/2] Linking C executable cmTC_436a0
+
+
+
+Determining size of void * passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-SYFhkZ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_16e4d && [1/2] Building C object CMakeFiles/cmTC_16e4d.dir/EVENT__SIZEOF_VOID_P.c.o
+[2/2] Linking C executable cmTC_16e4d
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-sD9Prk
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1845a && [1/2] Building C object CMakeFiles/cmTC_1845a.dir/EVENT__SIZEOF_TIME_T.c.o
+[2/2] Linking C executable cmTC_1845a
+
+
+
+Determining size of struct addrinfo passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-XZbaqH
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e423d && [1/2] Building C object CMakeFiles/cmTC_e423d.dir/EVENT__HAVE_STRUCT_ADDRINFO.c.o
+[2/2] Linking C executable cmTC_e423d
+
+
+
+Determining size of struct in6_addr passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-I7r5r2
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_88c7f && [1/2] Building C object CMakeFiles/cmTC_88c7f.dir/EVENT__HAVE_STRUCT_IN6_ADDR.c.o
+[2/2] Linking C executable cmTC_88c7f
+
+
+
+Determining size of sa_family_t passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-qkIYBW
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c9936 && [1/2] Building C object CMakeFiles/cmTC_c9936.dir/EVENT__HAVE_SA_FAMILY_T.c.o
+[2/2] Linking C executable cmTC_c9936
+
+
+
+Determining size of struct sockaddr_in6 passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-tLZPMC
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4d89e && [1/2] Building C object CMakeFiles/cmTC_4d89e.dir/EVENT__HAVE_STRUCT_SOCKADDR_IN6.c.o
+[2/2] Linking C executable cmTC_4d89e
+
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_IN6_SIN6_LEN succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-SsB6jW
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c0798 && [1/2] Building C object CMakeFiles/cmTC_c0798.dir/src.c.o
+/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-SsB6jW/src.c:6:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+int main()
+        ^
+         void
+1 warning generated.
+[2/2] Linking C executable cmTC_c0798
+
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+  return 0;
+}
+
+
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-3TDbdt
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_35fe8 && [1/2] Building C object CMakeFiles/cmTC_35fe8.dir/EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c.o
+[2/2] Linking C executable cmTC_35fe8
+
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-z0K0fb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fffad && [1/2] Building C object CMakeFiles/cmTC_fffad.dir/src.c.o
+/Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-z0K0fb/src.c:6:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+int main()
+        ^
+         void
+1 warning generated.
+[2/2] Linking C executable cmTC_fffad
+
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_storage *)0)->ss_family);
+  return 0;
+}
+
+
+Determining size of struct linger passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-xNs4iK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b2885 && [1/2] Building C object CMakeFiles/cmTC_b2885.dir/EVENT__HAVE_STRUCT_LINGER.c.o
+[2/2] Linking C executable cmTC_b2885
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-yFMR4Y
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_32b77 && [1/2] Building C object CMakeFiles/cmTC_32b77.dir/src.c.o
+[2/2] Linking C executable cmTC_32b77
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the include file clocale exists passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-nWi8xn
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3493c && [1/2] Building CXX object CMakeFiles/cmTC_3493c.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_3493c
+
+
+
+Determining if the localeconv exist passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-3BhH3p
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_42ed3 && [1/2] Building CXX object CMakeFiles/cmTC_42ed3.dir/CheckSymbolExists.cxx.o
+[2/2] Linking CXX executable cmTC_42ed3
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <clocale>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localeconv
+  return ((int*)(&localeconv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of lconv passed with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-sQwVe8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4c41f && [1/2] Building CXX object CMakeFiles/cmTC_4c41f.dir/LCONV_SIZE.cpp.o
+[2/2] Linking CXX executable cmTC_4c41f
+
+
+
+Performing C++ SOURCE FILE Test HAVE_DECIMAL_POINT succeeded with the following output:
+Change Dir: /Users/chenyue/Desktop/git/db_impl_course/build/CMakeFiles/CMakeScratch/TryCompile-jVvQRP
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_31c4e && [1/2] Building CXX object CMakeFiles/cmTC_31c4e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_31c4e
+
+
+Source file was:
+
+#include <clocale>
+
+int main()
+{
+  (void)sizeof(((lconv *)0)->decimal_point);
+  return 0;
+}
+
+

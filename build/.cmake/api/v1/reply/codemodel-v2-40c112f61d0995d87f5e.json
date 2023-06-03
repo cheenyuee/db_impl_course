@@ -1,0 +1,534 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-097dc4544caca2ad22b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "deps",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps-Debug-9809b3fc864cc8f91ec2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "deps"
+				},
+				{
+					"build" : "deps/common",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.common-Debug-3a500c56404316604277.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "deps/common",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src"
+				},
+				{
+					"build" : "src/obclient",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.obclient-Debug-74e2d61a028c0db5c0d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "src/obclient",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "src/observer",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.observer-Debug-f25c121438293b955666.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "src/observer",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "libevent",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libevent-Debug-f0c19690eddb8891fc6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 5,
+					"source" : "deps/libevent",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						20
+					]
+				},
+				{
+					"build" : "jsoncpp",
+					"childIndexes" : 
+					[
+						8,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-jsoncpp-Debug-c74625d44ee9ca5f218e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 6,
+					"source" : "deps/jsoncpp"
+				},
+				{
+					"build" : "jsoncpp/src",
+					"childIndexes" : 
+					[
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-jsoncpp.src-Debug-89f8665bf03c56dbe5ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 6,
+					"source" : "deps/jsoncpp/src"
+				},
+				{
+					"build" : "jsoncpp/src/lib_json",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-jsoncpp.src.lib_json-Debug-42e7e17e3c43301ac890.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 6,
+					"source" : "deps/jsoncpp/src/lib_json",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "jsoncpp/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-jsoncpp.include-Debug-7dbdae969fc8c28604c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 6,
+					"source" : "deps/jsoncpp/include"
+				},
+				{
+					"build" : "unitest",
+					"jsonFile" : "directory-unitest-Debug-c3ed75076db61e429341.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "unitest",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						11,
+						12,
+						13,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "minidb"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "miniob",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "obclient",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "observer",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "libevent",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "jsoncpp",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "unitest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						11,
+						12,
+						13,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 11,
+					"id" : "bitmap_test::@52cd600a4d0e1e8e952f",
+					"jsonFile" : "target-bitmap_test-Debug-7bae224a38997937ca0c.json",
+					"name" : "bitmap_test",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "bp_manager_test::@52cd600a4d0e1e8e952f",
+					"jsonFile" : "target-bp_manager_test-Debug-1cfc6c3a565a0119f835.json",
+					"name" : "bp_manager_test",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "bplus_tree_test::@52cd600a4d0e1e8e952f",
+					"jsonFile" : "target-bplus_tree_test-Debug-04f6d9940f1f340646db.json",
+					"name" : "bplus_tree_test",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "client_performance_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-client_performance_test-Debug-12b6e9760d8c68e74145.json",
+					"name" : "client_performance_test",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "common::@6d45b4e2c634211afc81",
+					"jsonFile" : "target-common-Debug-a7c619daa82f43e19ecf.json",
+					"name" : "common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "common_static::@6d45b4e2c634211afc81",
+					"jsonFile" : "target-common_static-Debug-932b24d7264ea18d8c95.json",
+					"name" : "common_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "event_core_static::@d8938a47b8797de26651",
+					"jsonFile" : "target-event_core_static-Debug-29205df4fcf85217e6ba.json",
+					"name" : "event_core_static",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "event_extra_static::@d8938a47b8797de26651",
+					"jsonFile" : "target-event_extra_static-Debug-40704eba7a33b09b24c0.json",
+					"name" : "event_extra_static",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "event_pthreads_static::@d8938a47b8797de26651",
+					"jsonFile" : "target-event_pthreads_static-Debug-4a8e6c00c0427fe2c705.json",
+					"name" : "event_pthreads_static",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "event_static::@d8938a47b8797de26651",
+					"jsonFile" : "target-event_static-Debug-1522adcf09bdc1e503e7.json",
+					"name" : "event_static",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "jsoncpp_static::@a9cdb551c294815260e6",
+					"jsonFile" : "target-jsoncpp_static-Debug-41a039037d34cf300cc4.json",
+					"name" : "jsoncpp_static",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "log_test::@52cd600a4d0e1e8e952f",
+					"jsonFile" : "target-log_test-Debug-26c49700f885ccc299fc.json",
+					"name" : "log_test",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "md5_test::@52cd600a4d0e1e8e952f",
+					"jsonFile" : "target-md5_test-Debug-061bd01d6cd7c8ea3a0b.json",
+					"name" : "md5_test",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "mem_pool_test::@52cd600a4d0e1e8e952f",
+					"jsonFile" : "target-mem_pool_test-Debug-e0e36e73dadbf045412f.json",
+					"name" : "mem_pool_test",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "obclient::@4196e604df7f482c3cc7",
+					"jsonFile" : "target-obclient-Debug-566329060853bf1e9f9b.json",
+					"name" : "obclient",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "observer::@4581bebf43805b95f013",
+					"jsonFile" : "target-observer-Debug-9e5c991dc1d2b2505ee0.json",
+					"name" : "observer",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "observer_static::@4581bebf43805b95f013",
+					"jsonFile" : "target-observer_static-Debug-1f0829f9e553fb6f9c48.json",
+					"name" : "observer_static",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "path_test::@52cd600a4d0e1e8e952f",
+					"jsonFile" : "target-path_test-Debug-eeb3ab66c30101bfa44a.json",
+					"name" : "path_test",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "pidfile_test::@52cd600a4d0e1e8e952f",
+					"jsonFile" : "target-pidfile_test-Debug-eb3ebe54e6b0f745c341.json",
+					"name" : "pidfile_test",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "rc_test::@52cd600a4d0e1e8e952f",
+					"jsonFile" : "target-rc_test-Debug-af6918cddb413dfc63c7.json",
+					"name" : "rc_test",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "uninstall::@d8938a47b8797de26651",
+					"jsonFile" : "target-uninstall-Debug-56559994caddd556e759.json",
+					"name" : "uninstall",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/chenyue/Desktop/git/db_impl_course/build",
+		"source" : "/Users/chenyue/Desktop/git/db_impl_course"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

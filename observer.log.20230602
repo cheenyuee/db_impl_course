@@ -1,0 +1,134 @@
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: init.cpp init 200]>>Output configuration 
+Begin dump configuration
+[]
+
+[DefaultStorageStage]
+BaseDir=./miniob
+SystemDb=sys
+ThreadId=IOThreads
+
+[DefaultThreads]
+count=3
+
+[ExecuteStage]
+NextStages=DefaultStorageStage,MemStorageStage
+ThreadId=SQLThreads
+
+[IOThreads]
+count=3
+
+[LOG]
+LOG_CONSOLE_LEVEL=1
+LOG_FILE_LEVEL=3
+LOG_FILE_NAME=observer.log
+
+[MemStorageStage]
+ThreadId=IOThreads
+
+[MetricsStage]
+NextStages=TimerStage
+
+[NET]
+CLIENT_ADDRESS=INADDR_ANY
+MAX_CONNECTION_NUM=8192
+PORT=6789
+
+[OptimizeStage]
+NextStages=ExecuteStage
+ThreadId=SQLThreads
+
+[ParseStage]
+NextStages=OptimizeStage
+ThreadId=SQLThreads
+
+[PlanCacheStage]
+NextStages=ExecuteStage,ParseStage
+ThreadId=SQLThreads
+
+[QueryCacheStage]
+NextStages=PlanCacheStage
+ThreadId=SQLThreads
+
+[ResolveStage]
+NextStages=QueryCacheStage
+ThreadId=SQLThreads
+
+[SEDA_BASE]
+EventHistory=false
+MaxEventHistoryNum=100
+STAGES=SessionStage,ExecuteStage,OptimizeStage,ParseStage,ResolveStage,PlanCacheStage,QueryCacheStage,DefaultStorageStage,MemStorageStage,TimerStage,MetricsStage
+ThreadPools=SQLThre
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: init.cpp init_seda 63]>>(Re)Starting State: Pid: 15728 Time: Fri Jun  2 15:52:48 2023
+
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: init.cpp init_seda 64]>>The process Name is observer
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_event_history 209]>>Successfully init_event_history, EventHistory:0, MaxEventHops:100
+[2023-6-2 15:52:48 pid:15728 tid:16dbcf000  INFO: thread_pool.cpp run_thread 258]>>threadid = 16dbcf000, threadname = SQLThreads
+
+[2023-6-2 15:52:48 pid:15728 tid:16df17000  INFO: thread_pool.cpp run_thread 258]>>threadid = 16df17000, threadname = DefaultThreads
+
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_stages 354]>>Stage SessionStage use threadpool DefaultThreads.
+[2023-6-2 15:52:48 pid:15728 tid:16dd73000  INFO: thread_pool.cpp run_thread 258]>>threadid = 16dd73000, threadname = IOThreads
+
+[2023-6-2 15:52:48 pid:15728 tid:16e02f000  INFO: thread_pool.cpp run_thread 258]>>threadid = 16e02f000, threadname = DefaultThreads
+
+[2023-6-2 15:52:48 pid:15728 tid:16dfa3000  INFO: thread_pool.cpp run_thread 258]>>threadid = 16dfa3000, threadname = DefaultThreads
+
+[2023-6-2 15:52:48 pid:15728 tid:16de8b000  INFO: thread_pool.cpp run_thread 258]>>threadid = 16de8b000, threadname = IOThreads
+
+[2023-6-2 15:52:48 pid:15728 tid:16ddff000  INFO: thread_pool.cpp run_thread 258]>>threadid = 16ddff000, threadname = IOThreads
+
+[2023-6-2 15:52:48 pid:15728 tid:16dc5b000  INFO: thread_pool.cpp run_thread 258]>>threadid = 16dc5b000, threadname = SQLThreads
+
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_stages 354]>>Stage ExecuteStage use threadpool DefaultThreads.
+[2023-6-2 15:52:48 pid:15728 tid:16dce7000  INFO: thread_pool.cpp run_thread 258]>>threadid = 16dce7000, threadname = SQLThreads
+
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_stages 354]>>Stage OptimizeStage use threadpool DefaultThreads.
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_stages 354]>>Stage ParseStage use threadpool DefaultThreads.
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_stages 354]>>Stage ResolveStage use threadpool DefaultThreads.
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_stages 354]>>Stage PlanCacheStage use threadpool DefaultThreads.
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_stages 354]>>Stage QueryCacheStage use threadpool DefaultThreads.
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: default_storage_stage.cpp set_properties 89]>>Use sys as system db
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: default_handler.cpp init 52]>>Default handler init with ./miniob success
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: db.cpp open_all_tables 124]>>All table have been opened. num=0
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: default_storage_stage.cpp set_properties 113]>>Open system db success: sys
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_stages 354]>>Stage DefaultStorageStage use threadpool DefaultThreads.
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_stages 354]>>Stage MemStorageStage use threadpool DefaultThreads.
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp get_thread_pool 296]>>Not set thread_pool_id for TimerStage, use default threadpool DefaultThreads
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_stages 354]>>Stage TimerStage use threadpool DefaultThreads.
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp get_thread_pool 296]>>Not set thread_pool_id for MetricsStage, use default threadpool DefaultThreads
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: seda_config.cpp init_stages 354]>>Stage MetricsStage use threadpool DefaultThreads.
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: metrics_registry.cpp register_metric 37]>>Successfully register metric :DefaultStorageStage.query
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: metrics_registry.cpp register_metric 37]>>Successfully register metric :SessionStage.sql
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: init.cpp init 224]>>Successfully init utility
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: metrics_registry.cpp register_metric 37]>>Successfully register metric :SessionStage.readsocket
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: metrics_registry.cpp register_metric 37]>>Successfully register metric :SessionStage.writesocket
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: server.cpp start_tcp_server 333]>>Listen on port 6789
+[2023-6-2 15:52:48 pid:15728 tid:1fd62db40  INFO: server.cpp start_tcp_server 352]>>Observer start success
+[2023-6-2 15:52:59 pid:15728 tid:1fd62db40  INFO: server.cpp accept 278]>>Accepted connection from 127.0.0.1:41941
+
+[2023-6-2 15:53:18 pid:15728 tid:1fd62db40  INFO: server.cpp recv 171]>>receive command(size=38): create table table1(c1 int, c2 int);
+
+[2023-6-2 15:53:18 pid:15728 tid:16e02f000  INFO: table.cpp create 54]>>Begin to create table ./miniob/db/sys:table1
+[2023-6-2 15:53:18 pid:15728 tid:16e02f000  INFO: field_meta.cpp init 70]>>Init a field with name=__trx
+[2023-6-2 15:53:18 pid:15728 tid:16e02f000  INFO: field_meta.cpp init 70]>>Init a field with name=c1
+[2023-6-2 15:53:18 pid:15728 tid:16e02f000  INFO: field_meta.cpp init 70]>>Init a field with name=c2
+[2023-6-2 15:53:18 pid:15728 tid:16e02f000  INFO: table_meta.cpp init 105]>>Init table meta success. table name=table1
+[2023-6-2 15:53:18 pid:15728 tid:16e02f000  INFO: disk_buffer_pool.cpp create_file 138]>>Successfully create ./miniob/db/sys/table1.data.
+[2023-6-2 15:53:18 pid:15728 tid:16e02f000  INFO: disk_buffer_pool.cpp open_file 167]>>Successfully open file ./miniob/db/sys/table1.data.
+[2023-6-2 15:53:18 pid:15728 tid:16e02f000  INFO: disk_buffer_pool.cpp open_file 209]>>Successfully open ./miniob/db/sys/table1.data. file_id=0, hdr_frame=0x108009018
+[2023-6-2 15:53:18 pid:15728 tid:16e02f000  INFO: table.cpp create 115]>>Successfully create table ./miniob/db/sys:table1
+[2023-6-2 15:53:18 pid:15728 tid:16e02f000  INFO: db.cpp create_table 68]>>Create table success. table name=table1
+[2023-6-2 15:53:31 pid:15728 tid:1fd62db40  INFO: server.cpp recv 171]>>receive command(size=33): insert into table1 values(1,1);
+
+[2023-6-2 15:53:31 pid:15728 tid:16dfa3000  ERROR: disk_buffer_pool.cpp check_page_num 584]>>Invalid pageNum:-1, file's name:./miniob/db/sys/table1.data
+[2023-6-2 15:53:31 pid:15728 tid:16dfa3000  ERROR: disk_buffer_pool.cpp get_this_page 255]>>Failed to load page ./miniob/db/sys/table1.data:-1, due to invalid pageNum.
+[2023-6-2 15:53:31 pid:15728 tid:16dfa3000  ERROR: record_manager.cpp init 79]>>Failed to get page handle from disk buffer pool. ret=2308:BUFFERPOOL_INVALID_PAGE_NUM
+[2023-6-2 15:53:31 pid:15728 tid:16dfa3000  ERROR: record_manager.cpp init_empty_page 105]>>Failed to init empty page file_id:page_num:record_size 0:-1:12.
+[2023-6-2 15:53:31 pid:15728 tid:16dfa3000  ERROR: record_manager.cpp insert_record 415]>>Failed to init empty page. file_id:0, ret:2308
+[2023-6-2 15:53:31 pid:15728 tid:16dfa3000  ERROR: table.cpp insert_record 226]>>Insert record failed. table name=table1, rc=2308:BUFFERPOOL_INVALID_PAGE_NUM
+[2023-6-2 15:53:43 pid:15728 tid:16e147000  INFO: main.cpp quit_thread_func 137]>>Receive signal: 1
+[2023-6-2 15:53:43 pid:15728 tid:16e147000  INFO: server.cpp shutdown 435]>>Server shutting down
+[2023-6-2 15:53:43 pid:15728 tid:1fd62db40  INFO: main.cpp main 168]>>Server stopped
+[2023-6-2 15:53:43 pid:15728 tid:16e147000  INFO: server.cpp shutdown 455]>>Server quit
+[2023-6-2 15:53:43 pid:15728 tid:1fd62db40  INFO: table.cpp sync 790]>>Sync table over. table=table1
+[2023-6-2 15:53:43 pid:15728 tid:1fd62db40  INFO: db.cpp sync 147]>>Sync db over. db=sys
