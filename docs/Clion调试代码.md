@@ -12,10 +12,10 @@
 
 配置完成后出现configurations
 
-![](/Users/chenyue/Desktop/git/db_impl_course/docs/图片/cmake配置效果.png)
+![](图片/cmake配置效果.png)
 
 ##### 配置observer运行参数
 
-![](/Users/chenyue/Desktop/git/db_impl_course/docs/图片/observer运行参数.png)
+![](图片/observer运行参数.png)
 
 就可以执行observer和obclient并且在代码处打断点调试了。

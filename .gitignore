@@ -4,6 +4,7 @@ observer.log.*
 deps/googletest/
 deps/jsoncpp/
 deps/libevent/
+miniob/
 .idea/
 .vscode/
 .vscode-server/
