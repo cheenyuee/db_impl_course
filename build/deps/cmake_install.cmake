@@ -1,4 +1,4 @@
-# Install script for directory: /Users/chenyue/Desktop/git/db_impl_course/deps
+# Install script for directory: /Users/chenyue/工作/git/db_impl_course/deps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/chenyue/Desktop/git/db_impl_course/build/deps/common/cmake_install.cmake")
+  include("/Users/chenyue/工作/git/db_impl_course/build/deps/common/cmake_install.cmake")
 
 endif()
 

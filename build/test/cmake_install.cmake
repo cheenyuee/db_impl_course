@@ -1,4 +1,4 @@
-# Install script for directory: /Users/chenyue/Desktop/git/db_impl_course/test
+# Install script for directory: /Users/chenyue/工作/git/db_impl_course/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

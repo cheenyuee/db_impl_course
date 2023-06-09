@@ -1,4 +1,4 @@
-# Install script for directory: /Users/chenyue/Desktop/git/db_impl_course/src/observer
+# Install script for directory: /Users/chenyue/工作/git/db_impl_course/src/observer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/chenyue/Desktop/git/db_impl_course/build/bin/observer")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/chenyue/工作/git/db_impl_course/build/bin/observer")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/observer" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/observer")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
-      -delete_rpath "/Users/chenyue/Desktop/git/db_impl_course/build/src/observer/../../lib"
-      -delete_rpath "/Users/chenyue/Desktop/git/db_impl_course/build/lib"
+      -delete_rpath "/Users/chenyue/工作/git/db_impl_course/build/src/observer/../../lib"
+      -delete_rpath "/Users/chenyue/工作/git/db_impl_course/build/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/observer")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/observer")
@@ -53,17 +53,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/chenyue/Desktop/git/db_impl_course/build/lib/libobserver.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/chenyue/工作/git/db_impl_course/build/lib/libobserver.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libobserver.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libobserver.a")
     execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libobserver.a")
   endif()
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/Users/chenyue/Desktop/git/db_impl_course/build/libevent/cmake_install.cmake")
-  include("/Users/chenyue/Desktop/git/db_impl_course/build/jsoncpp/cmake_install.cmake")
-
 endif()
 

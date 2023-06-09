@@ -1,4 +1,4 @@
-# Install script for directory: /Users/chenyue/Desktop/git/db_impl_course
+# Install script for directory: /Users/chenyue/工作/git/db_impl_course
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY PERMISSIONS OWNER_WRITE OWNER_READ GROUP_READ WORLD_READ FILES "/Users/chenyue/Desktop/git/db_impl_course/etc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY PERMISSIONS OWNER_WRITE OWNER_READ GROUP_READ WORLD_READ FILES "/Users/chenyue/工作/git/db_impl_course/etc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -47,10 +47,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/chenyue/Desktop/git/db_impl_course/build/deps/cmake_install.cmake")
-  include("/Users/chenyue/Desktop/git/db_impl_course/build/src/cmake_install.cmake")
-  include("/Users/chenyue/Desktop/git/db_impl_course/build/unitest/cmake_install.cmake")
-  include("/Users/chenyue/Desktop/git/db_impl_course/build/test/cmake_install.cmake")
+  include("/Users/chenyue/工作/git/db_impl_course/build/deps/cmake_install.cmake")
+  include("/Users/chenyue/工作/git/db_impl_course/build/src/cmake_install.cmake")
+  include("/Users/chenyue/工作/git/db_impl_course/build/unitest/cmake_install.cmake")
+  include("/Users/chenyue/工作/git/db_impl_course/build/test/cmake_install.cmake")
 
 endif()
 
@@ -62,5 +62,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/chenyue/Desktop/git/db_impl_course/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/chenyue/工作/git/db_impl_course/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/chenyue/Desktop/git/db_impl_course/src/obclient
+# Install script for directory: /Users/chenyue/工作/git/db_impl_course/src/obclient
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/chenyue/Desktop/git/db_impl_course/build/bin/obclient")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/chenyue/工作/git/db_impl_course/build/bin/obclient")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/obclient" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/obclient")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
-      -delete_rpath "/Users/chenyue/Desktop/git/db_impl_course/build/src/obclient/../../lib"
-      -delete_rpath "/Users/chenyue/Desktop/git/db_impl_course/build/lib"
+      -delete_rpath "/Users/chenyue/工作/git/db_impl_course/build/src/obclient/../../lib"
+      -delete_rpath "/Users/chenyue/工作/git/db_impl_course/build/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/obclient")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/obclient")
