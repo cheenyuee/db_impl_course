@@ -1,0 +1,15 @@
+.DS_Store
+**/.DS_Store
+.DS_Store?
+
+.idea/
+.vscode/
+.vscode-server/
+
+cmake-build-debug/
+build/
+
+observer.log.*
+deps/googletest/
+deps/jsoncpp/
+deps/libevent/
